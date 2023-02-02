@@ -62,6 +62,9 @@ const deleteUser = (id)=>{
           <h2>View users</h2>
           <UserTable editRow={editRow} deleteUser={deleteUser} users={users} />
         </div>
+        <div>
+          <h1>Hii</h1>
+        </div>
       </div>
     </div>
   );
